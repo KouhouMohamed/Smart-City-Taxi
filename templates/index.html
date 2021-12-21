@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script  type="module" src="../static/leaf.js"></script>
+
+
+    <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />
+     -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- LEAFLET -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+      integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+        crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+      integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+      crossorigin=""></script>
+
+
+    <!-- END LEAFLET -->
+    <title>IOT Project Taxi</title>
+    <style>
+      .area-tooltip {
+           background: #363636;
+           background: rgba(0,0,0,0.5);
+           border: none;
+           color: #f8d5e4;
+       }
+    .nearestPopup .leaflet-popup-content-wrapper,
+    .nearestPopup .leaflet-popup-tip {
+        background-color: #adf43b;
+        padding: 8px;
+    }
+   </style>
+  </head>
+  <body>
+   
+    <div class="container">
+      <div class="card m-2">
+        <div class="card-header bg-success text-white">
+          <h1 class="text-center"><b>IOT TAXI Project ( MAP Visualisation )</b></h1>
+        </div>
+        <div class="card-body bg-dark">
+          <div id="mapProject" style = "width:auto; height:580px;"></div>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/leaflet-draw@1.0.4/dist/leaflet.draw.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </div>
+  </body>
+</html>
